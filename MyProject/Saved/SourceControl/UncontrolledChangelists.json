@@ -1,0 +1,21 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Lista de cambios no controlados predeterminada",
+			"files": [
+				"C:/Users/camil/OneDrive/Documentos/Unreal Projects/MyProject/Content/TopDownHybrid/Maps/L_Hybrid.umap",
+				"C:/Users/camil/OneDrive/Documentos/Unreal Projects/MyProject/Content/TopDownHybrid/Maps/_GENERATED/camil/Box_DE930B62.uasset",
+				"C:/Users/camil/OneDrive/Documentos/Unreal Projects/MyProject/Content/TopDownHybrid/Maps/_GENERATED/camil/CubeGridToolOutput_3E34BF9D.uasset",
+				"C:/Users/camil/OneDrive/Documentos/Unreal Projects/MyProject/Content/TopDownHybrid/Maps/_GENERATED/camil/CubeGridToolOutput_83D8FD0B.uasset",
+				"C:/Users/camil/OneDrive/Documentos/Unreal Projects/MyProject/Content/TopDownHybrid/Maps/_GENERATED/camil/CubeGridToolOutput_8E10F995.uasset",
+				"C:/Users/camil/OneDrive/Documentos/Unreal Projects/MyProject/Content/TopDownHybrid/Maps/_GENERATED/camil/CubeGridToolOutput_AE373848.uasset",
+				"C:/Users/camil/OneDrive/Documentos/Unreal Projects/MyProject/Content/TopDownHybrid/Maps/_GENERATED/camil/CubeGridToolOutput_1754AFC7.uasset",
+				"C:/Users/camil/OneDrive/Documentos/Unreal Projects/MyProject/Content/TopDownHybrid/Blueprints/Mannequin/BP_Mannequin.uasset",
+				"C:/Users/camil/OneDrive/Documentos/Unreal Projects/MyProject/Content/TopDownHybrid/Maps/_GENERATED/camil/CubeGridToolOutput_A5C3DD9A.uasset",
+				"C:/Users/camil/OneDrive/Documentos/Unreal Projects/MyProject/Content/TopDownHybrid/Maps/_GENERATED/camil/Path_AA54AD43.uasset"
+			]
+		}
+	]
+}
