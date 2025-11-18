@@ -1290,3 +1290,200 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.18-22.44.03:091][621]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
 [2025.11.18-22.44.03:144][621]LogUObjectHash: Compacting FUObjectHashTables data took   5.57ms
 [2025.11.18-22.44.03:440][622]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2025.11.18-22.45.14:121][920]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2025.11.18-22.45.18:689][981]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.18-22.45.18:718][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.18-22.45.18:719][981]LogPlayLevel: Creating play world package: /Game/TopDownHybrid/Maps/UEDPIE_0_L_Hybrid
+[2025.11.18-22.45.18:741][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022149s)
+[2025.11.18-22.45.18:742][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownHybrid/Maps/L_Hybrid.L_Hybrid to /Game/TopDownHybrid/Maps/UEDPIE_0_L_Hybrid.L_Hybrid (0.022347s)
+[2025.11.18-22.45.18:824][981]LogUObjectHash: Compacting FUObjectHashTables data took   5.44ms
+[2025.11.18-22.45.18:832][981]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Hybrid
+[2025.11.18-22.45.18:843][981]LogPlayLevel: PIE: World Init took: (0.010790s)
+[2025.11.18-22.45.18:847][981]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.11.18-22.45.18:847][981]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.18-22.45.18:847][981]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.18-22.45.18:847][981]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.18-22.45.18:847][981]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.18-22.45.18:847][981]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.18-22.45.18:848][981]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.18-22.45.18:848][981]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.18-22.45.18:848][981]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.18-22.45.18:848][981]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.18-22.45.18:848][981]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.18-22.45.18:848][981]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.18-22.45.18:853][981]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.18-22.45.18:946][981]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Cirrus Logic Superior High Definition Audio)
+[2025.11.18-22.45.18:946][981]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.18-22.45.18:947][981]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.18-22.45.18:947][981]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.18-22.45.18:948][981]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.11.18-22.45.18:948][981]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.11.18-22.45.18:955][981]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.11.18-22.45.18:955][981]LogInit: FAudioDevice initialized with ID 3.
+[2025.11.18-22.45.18:955][981]LogAudio: Display: Audio Device (ID: 3) registered with world 'L_Hybrid'.
+[2025.11.18-22.45.18:955][981]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.11.18-22.45.18:955][981]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.11.18-22.45.18:970][981]LogStreaming: Display: FlushAsyncLoading(532): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.18-22.45.18:970][981]LogLoad: Game class is 'GM_Hybrid_C'
+[2025.11.18-22.45.18:976][981]LogWorld: Bringing World /Game/TopDownHybrid/Maps/UEDPIE_0_L_Hybrid.L_Hybrid up for play (max tick rate 60) at 2025.11.18-17.45.18
+[2025.11.18-22.45.18:978][981]LogWorld: Bringing up level for play took: 0.007051
+[2025.11.18-22.45.18:985][981]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2025.11.18-22.45.18:991][981]LogTemp: Warning: No animation class defined on 'Animation', cannot create instance.
+[2025.11.18-22.45.18:992][981]LogScript: Warning: Script Msg: BP_Enemy_C_3 BarControl SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2025.11.18-22.45.18:992][981]LogScript: Warning: Script Msg called by: BP_Enemy_C /Game/TopDownHybrid/Maps/UEDPIE_0_L_Hybrid.L_Hybrid:PersistentLevel.BP_Enemy_C_3
+[2025.11.18-22.45.18:996][981]PIE: Server logged in
+[2025.11.18-22.45.19:001][981]PIE: Play in editor total start time 0,284 seconds.
+[2025.11.18-22.45.33:289][147]LogBlueprintUserMessages: [BP_Mannequin_C_0] HitReaction
+[2025.11.18-22.45.34:077][165]LogBlueprintUserMessages: [BP_Enemy_C_3] HitReaction
+[2025.11.18-22.45.34:077][165]LogBlueprintUserMessages: [BP_PlayerController_C_0] Hit
+[2025.11.18-22.45.34:077][165]LogBlueprintUserMessages: [BP_Enemy_C_3] HitReaction
+[2025.11.18-22.45.34:079][165]LogBlueprintUserMessages: [BP_PlayerController_C_0] Hit
+[2025.11.18-22.45.34:079][165]LogBlueprintUserMessages: [BP_Enemy_C_3] HitReaction
+[2025.11.18-22.45.34:079][165]LogBlueprintUserMessages: [BP_PlayerController_C_0] Hit
+[2025.11.18-22.45.34:472][174]LogBlueprintUserMessages: [BP_Enemy_C_3] HitReaction
+[2025.11.18-22.45.34:472][174]LogBlueprintUserMessages: [BP_PlayerController_C_0] Hit
+[2025.11.18-22.45.34:473][174]LogBlueprintUserMessages: [BP_PlayerController_C_0] Hit
+[2025.11.18-22.46.19:263][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.18-22.46.19:264][ 79]LogWorld: BeginTearingDown for /Game/TopDownHybrid/Maps/UEDPIE_0_L_Hybrid
+[2025.11.18-22.46.19:264][ 79]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.11.18-22.46.19:265][ 79]LogWorld: UWorld::CleanupWorld for L_Hybrid, bSessionEnded=true, bCleanupResources=true
+[2025.11.18-22.46.19:269][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.18-22.46.19:278][ 79]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.18-22.46.19:303][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.18-22.46.19:403][ 79]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.18-22.46.19:403][ 79]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.11.18-22.46.19:403][ 79]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2025.11.18-22.46.19:411][ 79]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2025.11.18-22.46.19:428][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.18-22.46.19:439][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   6.24ms
+[2025.11.18-22.46.19:595][ 80]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2025.11.18-22.46.46:721][382]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
+[2025.11.18-22.46.49:225][414]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.18-22.46.49:255][414]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.18-22.46.49:256][414]LogPlayLevel: Creating play world package: /Game/TopDownHybrid/Maps/UEDPIE_0_L_Hybrid
+[2025.11.18-22.46.49:276][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019752s)
+[2025.11.18-22.46.49:276][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownHybrid/Maps/L_Hybrid.L_Hybrid to /Game/TopDownHybrid/Maps/UEDPIE_0_L_Hybrid.L_Hybrid (0.019943s)
+[2025.11.18-22.46.49:368][414]LogUObjectHash: Compacting FUObjectHashTables data took   5.61ms
+[2025.11.18-22.46.49:378][414]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Hybrid
+[2025.11.18-22.46.49:384][414]LogPlayLevel: PIE: World Init took: (0.006783s)
+[2025.11.18-22.46.49:389][414]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.11.18-22.46.49:389][414]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.18-22.46.49:389][414]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.18-22.46.49:389][414]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.18-22.46.49:389][414]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.18-22.46.49:389][414]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.18-22.46.49:389][414]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.18-22.46.49:391][414]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.18-22.46.49:391][414]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.18-22.46.49:391][414]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.18-22.46.49:391][414]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.18-22.46.49:391][414]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.18-22.46.49:397][414]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.18-22.46.49:490][414]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Cirrus Logic Superior High Definition Audio)
+[2025.11.18-22.46.49:490][414]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.18-22.46.49:490][414]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.18-22.46.49:490][414]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.18-22.46.49:491][414]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.11.18-22.46.49:492][414]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.11.18-22.46.49:499][414]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.11.18-22.46.49:499][414]LogInit: FAudioDevice initialized with ID 4.
+[2025.11.18-22.46.49:499][414]LogAudio: Display: Audio Device (ID: 4) registered with world 'L_Hybrid'.
+[2025.11.18-22.46.49:499][414]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.11.18-22.46.49:499][414]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.11.18-22.46.49:511][414]LogStreaming: Display: FlushAsyncLoading(533): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.18-22.46.49:512][414]LogLoad: Game class is 'GM_Hybrid_C'
+[2025.11.18-22.46.49:516][414]LogWorld: Bringing World /Game/TopDownHybrid/Maps/UEDPIE_0_L_Hybrid.L_Hybrid up for play (max tick rate 60) at 2025.11.18-17.46.49
+[2025.11.18-22.46.49:518][414]LogWorld: Bringing up level for play took: 0.005183
+[2025.11.18-22.46.49:526][414]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2025.11.18-22.46.49:532][414]LogTemp: Warning: No animation class defined on 'Animation', cannot create instance.
+[2025.11.18-22.46.49:534][414]LogScript: Warning: Script Msg: BP_Enemy_C_3 BarControl SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2025.11.18-22.46.49:534][414]LogScript: Warning: Script Msg called by: BP_Enemy_C /Game/TopDownHybrid/Maps/UEDPIE_0_L_Hybrid.L_Hybrid:PersistentLevel.BP_Enemy_C_3
+[2025.11.18-22.46.49:538][414]PIE: Server logged in
+[2025.11.18-22.46.49:544][414]PIE: Play in editor total start time 0,289 seconds.
+[2025.11.18-22.47.00:060][555]LogBlueprintUserMessages: [BP_Mannequin_C_0] HitReaction
+[2025.11.18-22.47.03:973][632]LogBlueprintUserMessages: [BP_Mannequin_C_0] HitReaction
+[2025.11.18-22.47.04:795][647]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.18-22.47.04:795][647]LogWorld: BeginTearingDown for /Game/TopDownHybrid/Maps/UEDPIE_0_L_Hybrid
+[2025.11.18-22.47.04:796][647]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.11.18-22.47.04:797][647]LogWorld: UWorld::CleanupWorld for L_Hybrid, bSessionEnded=true, bCleanupResources=true
+[2025.11.18-22.47.04:800][647]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.18-22.47.04:809][647]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.18-22.47.04:837][647]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.18-22.47.04:932][647]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.18-22.47.04:932][647]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.11.18-22.47.04:932][647]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2025.11.18-22.47.04:939][647]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2025.11.18-22.47.04:957][647]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.18-22.47.04:966][647]LogUObjectHash: Compacting FUObjectHashTables data took   5.58ms
+[2025.11.18-22.47.05:122][648]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2025.11.18-22.47.51:365][112]LogUObjectHash: Compacting FUObjectHashTables data took   5.28ms
+[2025.11.18-22.48.33:556][611]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.18-22.48.33:609][611]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.18-22.48.33:610][611]LogPlayLevel: Creating play world package: /Game/TopDownHybrid/Maps/UEDPIE_0_L_Hybrid
+[2025.11.18-22.48.33:639][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029340s)
+[2025.11.18-22.48.33:640][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownHybrid/Maps/L_Hybrid.L_Hybrid to /Game/TopDownHybrid/Maps/UEDPIE_0_L_Hybrid.L_Hybrid (0.029620s)
+[2025.11.18-22.48.33:751][611]LogUObjectHash: Compacting FUObjectHashTables data took   7.42ms
+[2025.11.18-22.48.33:762][611]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Hybrid
+[2025.11.18-22.48.33:769][611]LogPlayLevel: PIE: World Init took: (0.007044s)
+[2025.11.18-22.48.33:774][611]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.11.18-22.48.33:774][611]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.18-22.48.33:774][611]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.18-22.48.33:775][611]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.18-22.48.33:775][611]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.18-22.48.33:775][611]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.18-22.48.33:776][611]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.18-22.48.33:776][611]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.18-22.48.33:776][611]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.18-22.48.33:776][611]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.18-22.48.33:776][611]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.18-22.48.33:776][611]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.18-22.48.33:784][611]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.18-22.48.33:913][611]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Cirrus Logic Superior High Definition Audio)
+[2025.11.18-22.48.33:914][611]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.18-22.48.33:914][611]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.18-22.48.33:915][611]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.18-22.48.33:915][611]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.11.18-22.48.33:915][611]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.11.18-22.48.33:923][611]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.11.18-22.48.33:923][611]LogInit: FAudioDevice initialized with ID 5.
+[2025.11.18-22.48.33:923][611]LogAudio: Display: Audio Device (ID: 5) registered with world 'L_Hybrid'.
+[2025.11.18-22.48.33:923][611]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.11.18-22.48.33:924][611]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.11.18-22.48.33:937][611]LogStreaming: Display: FlushAsyncLoading(534): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.18-22.48.33:937][611]LogLoad: Game class is 'GM_Hybrid_C'
+[2025.11.18-22.48.33:943][611]LogWorld: Bringing World /Game/TopDownHybrid/Maps/UEDPIE_0_L_Hybrid.L_Hybrid up for play (max tick rate 60) at 2025.11.18-17.48.33
+[2025.11.18-22.48.33:944][611]LogWorld: Bringing up level for play took: 0.006527
+[2025.11.18-22.48.33:953][611]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2025.11.18-22.48.33:959][611]LogTemp: Warning: No animation class defined on 'Animation', cannot create instance.
+[2025.11.18-22.48.33:960][611]LogScript: Warning: Script Msg: BP_Enemy_C_3 BarControl SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2025.11.18-22.48.33:960][611]LogScript: Warning: Script Msg called by: BP_Enemy_C /Game/TopDownHybrid/Maps/UEDPIE_0_L_Hybrid.L_Hybrid:PersistentLevel.BP_Enemy_C_3
+[2025.11.18-22.48.33:965][611]PIE: Server logged in
+[2025.11.18-22.48.33:970][611]PIE: Play in editor total start time 0,362 seconds.
+[2025.11.18-22.48.42:829][713]LogBlueprintUserMessages: [BP_Mannequin_C_0] HitReaction
+[2025.11.18-22.48.46:381][778]LogBlueprintUserMessages: [BP_Mannequin_C_0] HitReaction
+[2025.11.18-22.48.47:208][793]LogBlueprintUserMessages: [BP_Enemy_C_3] HitReaction
+[2025.11.18-22.48.47:208][793]LogBlueprintUserMessages: [BP_PlayerController_C_0] Hit
+[2025.11.18-22.48.47:208][793]LogBlueprintUserMessages: [BP_Enemy_C_3] HitReaction
+[2025.11.18-22.48.47:208][793]LogBlueprintUserMessages: [BP_PlayerController_C_0] Hit
+[2025.11.18-22.48.47:209][793]LogBlueprintUserMessages: [BP_Enemy_C_3] HitReaction
+[2025.11.18-22.48.47:209][793]LogBlueprintUserMessages: [BP_PlayerController_C_0] Hit
+[2025.11.18-22.48.47:591][800]LogBlueprintUserMessages: [BP_Enemy_C_3] HitReaction
+[2025.11.18-22.48.47:591][800]LogBlueprintUserMessages: [BP_PlayerController_C_0] Hit
+[2025.11.18-22.48.47:592][800]LogBlueprintUserMessages: [BP_PlayerController_C_0] Hit
+[2025.11.18-22.49.04:536][111]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3547.519043
+[2025.11.18-22.49.04:785][116]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.18-22.49.04:786][116]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3547.715576, Update Interval: 325.161285
+[2025.11.18-22.49.07:890][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.18-22.49.07:890][169]LogWorld: BeginTearingDown for /Game/TopDownHybrid/Maps/UEDPIE_0_L_Hybrid
+[2025.11.18-22.49.07:890][169]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.11.18-22.49.07:891][169]LogWorld: UWorld::CleanupWorld for L_Hybrid, bSessionEnded=true, bCleanupResources=true
+[2025.11.18-22.49.07:893][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.18-22.49.07:903][169]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.18-22.49.07:934][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.18-22.49.08:038][169]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.18-22.49.08:038][169]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.11.18-22.49.08:038][169]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2025.11.18-22.49.08:045][169]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2025.11.18-22.49.08:065][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.18-22.49.08:076][169]LogUObjectHash: Compacting FUObjectHashTables data took   6.73ms
+[2025.11.18-22.49.08:265][170]LogPlayLevel: Display: Destroying online subsystem :Context_13
