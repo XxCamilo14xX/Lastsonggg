@@ -8,7 +8,14 @@
 				"D:/.Universidad/Arquitectura/guego/Lastsonggg/MyProject/Content/Widgets/BP_HUD.uasset",
 				"D:/.Universidad/Arquitectura/guego/Lastsonggg/MyProject/Content/Blueprints/BP_PlayerController.uasset",
 				"D:/.Universidad/Arquitectura/guego/Lastsonggg/MyProject/Content/DamageSystem/Player/BP_Mannequin.uasset",
-				"D:/.Universidad/Arquitectura/guego/Lastsonggg/MyProject/Content/DamageSystem/Enemy/BP_Enemy.uasset"
+				"D:/.Universidad/Arquitectura/guego/Lastsonggg/MyProject/Content/DamageSystem/Enemy/BP_Enemy.uasset",
+				"D:/.Universidad/Arquitectura/guego/Lastsonggg/MyProject/Content/DamageSystem/Enemy/IA/BT_Enemy.uasset",
+				"D:/.Universidad/Arquitectura/guego/Lastsonggg/MyProject/Content/DamageSystem/Enemy/IA/BB_Enemy.uasset",
+				"D:/.Universidad/Arquitectura/guego/Lastsonggg/MyProject/Content/DamageSystem/Enemy/IA/AIC_Enemy.uasset",
+				"D:/.Universidad/Arquitectura/guego/Lastsonggg/MyProject/Content/DamageSystem/Enemy/IA/BTT_UnFocus.uasset",
+				"D:/.Universidad/Arquitectura/guego/Lastsonggg/MyProject/Content/DamageSystem/Enemy/IA/BTT_Focus.uasset",
+				"D:/.Universidad/Arquitectura/guego/Lastsonggg/MyProject/Content/TopDownHybrid/Maps/L_Hybrid.umap",
+				"D:/.Universidad/Arquitectura/guego/Lastsonggg/MyProject/Content/DamageSystem/Enemy/IA/BTT_Attack.uasset"
 			]
 		}
 	]
