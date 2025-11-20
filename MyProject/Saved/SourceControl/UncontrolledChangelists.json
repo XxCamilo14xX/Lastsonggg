@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/camil/OneDrive/Documentos/Unreal Projects/Lastsong/MyProject/Content/DamageSystem/Player/BP_Mannequin.uasset",
+				"C:/Users/camil/OneDrive/Documentos/Unreal Projects/Lastsong/MyProject/Content/Blueprints/BP_PlayerController.uasset",
 				"D:/.Universidad/Arquitectura/guego/Lastsonggg/MyProject/Content/Widgets/BP_HUD.uasset",
 				"D:/.Universidad/Arquitectura/guego/Lastsonggg/MyProject/Content/Blueprints/BP_PlayerController.uasset",
 				"D:/.Universidad/Arquitectura/guego/Lastsonggg/MyProject/Content/DamageSystem/Player/BP_Mannequin.uasset",
