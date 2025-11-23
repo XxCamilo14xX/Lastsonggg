@@ -3747,3 +3747,8 @@ Make sure 'BPC_Interaction_Systemm' has been compiled for  Invalid Message Node
 [2025.11.23-21.28.30:109][485]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/Components/BPC_Interaction_Systemm.BPC_Interaction_Systemm without an associated node. The blueprint breakpoint has been removed
 [2025.11.23-21.28.30:154][485]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/Components/BPC_Interaction_Systemm.BPC_Interaction_Systemm without an associated node. The blueprint breakpoint has been removed
 [2025.11.23-21.28.30:154][485]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/Components/BPC_Interaction_Systemm.BPC_Interaction_Systemm without an associated node. The blueprint breakpoint has been removed
+[2025.11.23-21.30.56:109][866]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2025.11.23-21.30.56:174][866]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/L_Hybrid_Auto2
+[2025.11.23-21.30.56:175][866]LogSavePackage: Moving '../../../../../.Universidad/Arquitectura/guego/Lastsonggg/MyProject/Saved/L_Hybrid_Auto29779418C4E35D6F9687398A93E2AE814.tmp' to '../../../../../.Universidad/Arquitectura/guego/Lastsonggg/MyProject/Saved/Autosaves/Game/Maps/L_Hybrid_Auto2.umap'
+[2025.11.23-21.30.56:179][866]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/L_Hybrid' took 0.127
+[2025.11.23-21.30.56:179][866]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.127
